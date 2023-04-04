@@ -1,0 +1,84 @@
+.academic{
+   /* Experiencia area */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 82px;
+margin: 0;
+gap: 32px;
+
+width: auto;
+height: auto;
+
+/* Azul/10% */
+
+background: #EAF2FD;
+
+/* Inside auto layout */
+
+flex: none;
+align-self: stretch;
+flex-grow: 0; 
+}
+
+
+.academic__title{
+    /* Formación académica */
+
+
+width: 339px;
+height: 38px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+text-align: center;
+
+/* Preto/100% */
+
+color: #464646;
+
+
+/* Inside auto layout */
+
+flex: none;
+flex-grow: 0;
+}
+
+.academic__courses{
+    /* Experiencia area */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 82px;
+gap: 32px;
+
+/* Azul/10% */
+
+background: #EAF2FD;
+
+/* Inside auto layout */
+
+flex: none;
+
+align-self: stretch;
+flex-grow: 0;
+}
+
+.logos_uni{
+    width: 250px;
+    height:120px;
+}
+

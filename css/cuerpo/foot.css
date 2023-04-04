@@ -1,0 +1,81 @@
+.formcontato__contacto {
+    /* Contato */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+
+    width: 1200px;
+    height: 788px;
+
+    /* Azul/10% */
+
+    background: #EAF2FD;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.formcontato__form {
+    /* Campos */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 656px;
+    height: 397px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.formcontato__botao {
+    /* Botao */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 144px;
+    height: 51px;
+
+    /* Azul/100% */
+
+    background: #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+};
+
+.footer__rodape{
+    text-align: center;
+}

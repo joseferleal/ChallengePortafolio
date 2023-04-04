@@ -1,0 +1,124 @@
+.title__div {
+    /* Hero */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 208px;
+
+    width: 1136px;
+    height: 368px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.title__network {
+    /* Links */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 467px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.title__profile{
+    width: 368px;
+height: 368px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.about {
+    /* Frame 6 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+
+
+
+    /* Azul/10% */
+
+    background: #EAF2FD;
+
+    /* Inside auto layout */
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.skills__line {
+    /* Skills e hobbies */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 65px;
+
+}
+
+
+.skills__img {
+    width: 24px;
+    height: 37px;
+}
+
+.iconos_agregados {
+    width: 40px;
+    height: 37px;
+}
+
+
+.hobbies__line {
+    /* Skills e hobbies */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
+
+}

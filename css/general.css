@@ -1,0 +1,45 @@
+
+
+header {
+    /* Logo */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 134px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.tudo {
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    height: 5020px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+;
