@@ -78,4 +78,17 @@
 
 .footer__rodape{
     text-align: center;
-}
+}; 
+
+
+@media screen and (max-width: 768px){
+
+    .formcontato{
+        background: red
+    };
+    .formcontato__img{
+        width: 50px;
+    }
+
+
+};
